@@ -567,7 +567,7 @@ body {
 
 /* responsive */
 
-@media (max-width:1170px) {
+@media (max-width:1200px) {
   .navbar {
     bottom: 0;
     left: 0;
