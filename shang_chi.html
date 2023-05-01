@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hitman`s Wife`s Bodyguard</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <!-- иконка для tytle-->
+    <link rel="shortcut icon" href="images/fav-icon.png" type="image/x-icon" />
+    <!-- иконочный шрифт -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="nav container">
+        <a class="logo" href="#"> Movie<span>Vel</span> </a>
+        <div class="search__box">
+          <input
+            class="search__box--input"
+            type="search"
+            id="search__input"
+            placeholder="Search movie"
+          />
+          <i class="bx bx-search"></i>
+        </div>
+        <a class="user" href="#">
+          <img src="images/user.jpg" alt="user" />
+        </a>
+        <nav class="navbar">
+          <a class="navbar__link nav__active" href="index.html">
+            <i class="bx bx-home"></i>
+            <span class="navbar__link--title">Home</span>
+          </a>
+          <a class="navbar__link" href="index.html">
+            <i class="bx bxs-hot"></i>
+            <span class="navbar__link--title">Trending</span>
+          </a>
+          <a class="navbar__link" href="#home">
+            <i class="bx bx-compass"></i>
+            <span class="navbar__link--title">Explore</span>
+          </a>
+          <a class="navbar__link" href="#home">
+            <i class="bx bx-tv"></i>
+            <span class="navbar__link--title">Movies</span>
+          </a>
+          <a class="navbar__link" href="#home">
+            <i class="bx bx-heart"></i>
+            <span class="navbar__link--title">Favorite</span>
+          </a>
+        </nav>
+      </div>
+    </header>
+
+    <div class="play__container container">
+      <img class="play__img" src="images/shang_chi.jpeg" alt="">
+      <div class="play__text">
+        <h2>Shang-Chi</h2>
+        <div class="rating">
+          <i class="bx bxs-star"></i>
+          <i class="bx bxs-star"></i>
+          <i class="bx bxs-star"></i>
+          <i class="bx bxs-star"></i>
+          <i class="bx bxs-star-half"></i>
+        </div>
+        <div class="tags">
+          <span>Action</span>
+          <span>Adventure</span>
+          <span>4K</span>
+        </div>
+        <a class="watch__btn" href="#">
+          <i class="bx bx-right-arrow"></i>
+          <span>Watch the trailer</span>
+        </a>
+      </div>  
+      <i class="bx bx-right-arrow play__movie"></i>
+      <div class="video__container">
+        <div class="video__box">
+          <video id="myvideo" src="images/video/shang-chi.mp4" controls></video>
+          <i class="bx bx-x close__video"></i>
+        </div>
+      </div>
+    </div>
+    <div class="about__movie container">
+      <h2>Shang-Chi</h2>
+      <p>Many hundreds of years ago, the ambitious warrior Xu Wenwu took possession of a magical combat artifact - ten rings, with which he defeated all enemies and created a secret organization. For centuries, he raised an army and secretly intervened in the course of world history, but in 1996 he met a beautiful girl, a martial artist of the Ta Lo village hidden from prying eyes, settled down and started a family. San Francisco, 25 years later. The guy Sean works as an ordinary parking attendant, and spends his evenings at karaoke with his friend and colleague Kathy, who is a big fan of fast cars. One day, on the way to work, well-trained warriors attack their friends in order to take away the medallion presented to Sean by his mother.</p>
+      <h2 class="cast__heading">Movie Cast</h2>
+      <div class="cast">
+        <div class="cast__box">
+          <img src="images/actors/sim_liu.jpeg" alt="cast">
+          <span class="cast__title">Sim Liu</span>
+        </div>
+        <div class="cast__box">
+          <img src="images/actors/toni_leung_chu_wai.jpeg" alt="cast">
+          <span class="cast__title">Tony Leung Chu Wai</span>
+        </div>
+        <div class="cast__box">
+          <img src="images/actors/aquafina.jpeg" alt="cast">
+          <span class="cast__title">Aquafina</span>
+        </div>
+        <div class="cast__box">
+          <img src="images/actors/mishel_yuo.jpeg" alt="cast">
+          <span class="cast__title">Michelle Yeoh</span>
+        </div>
+        <div class="cast__box">
+          <img src="images/actors/mender_zhang.jpeg" alt="cast">
+          <span class="cast__title">Mend`er Zhang</span>
+        </div>
+        <div class="cast__box">
+          <img src="images/actors/chen_fala.jpeg" alt="cast">
+          <span class="cast__title">Chen Fala</span>
+        </div>
+      </div>
+    </div>
+    <div class="download">
+      <h2 class="download__title">Download Movie</h2>
+      <div class="download__links">
+        <a href="images/video/hitmans_wifes_bodyguard.mp4" download>480p</a>
+        <a href="images/video/hitmans_wifes_bodyguard.mp4" download>720p</a>
+        <a href="images/video/hitmans_wifes_bodyguard.mp4" download>1080p</a>
+      </div>
+    </div>
+
+    <div class="copiright">
+      <p>&#169; CarpoolVenom All Right Reserved</p>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9.2.4/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</html>
